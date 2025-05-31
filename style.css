@@ -1,0 +1,108 @@
+.menu i, .close i{
+	font-size:40px;
+}
+.tab{
+	width:300px;
+	height:100vh;
+	border:1px solid #e1e1e1;
+	position:fixed;
+	top:0;
+	background-color:#fff;
+	left:-300px;
+	transition:0.5s;
+}
+.tab ul{
+	list-style-type:none;
+}
+.tab ul li{
+	margin-bottom:15px;
+}
+.tab ul li a{
+	color:#000;
+	text-decoration:none;
+	font-size:20px;
+}
+.home, .about, .project, .skills, .contact{
+	height:100vh;
+	width:100%;
+}
+.home{
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-image: url('https://img.freepik.com/free-photo/futuristic-metaverse-empty-room-product-display-presentation-abstract-technology-scifi-with-neon-light-3d-background_56104-2314.jpg?semt=ais_hybrid&w=740');
+	color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about{
+	background-color:red;
+}
+.about {
+  background: #7a81ff;
+}
+
+.about h2 {
+  font-size: 3.5rem;
+  color: #e10000;
+  font-weight: 700;
+}
+
+.about p {
+  font-size: 1.1rem;
+  color: #000000;
+  line-height: 1.7;
+  font-weight: 700;
+}
+
+.project{
+	
+}
+.project .info img{
+	width:100%;
+	height:300px;
+	object-fit:cover;
+}
+.project .info a{
+	color:#000;
+	text-decoration:none;
+}
+.skills{
+	background-color:blue;
+}
+.skills {
+  background-color: #1f1f7a; /* Deep blue */
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.skills h2 {
+  font-size: 3rem;
+  color: #ffffff;
+  font-weight: bold;
+}
+.skills label {
+  font-weight: 600;
+  margin-bottom: 5px;
+  display: block;
+}
+.progress {
+  height: 25px;
+}
+
+.progress{
+	margin-top: 20px;
+}
+.contact{
+	background-color:purple;
+}
+*{
+	margin:0;
+	padding:0;
+}
+.menu{
+	position:fixed;
+	top:0;
+}
+html{
+	scroll-behavior:smooth;
+}
